@@ -1,8 +1,8 @@
 ---
-title: ポートフォリオサイトをリニューアルしました
+title: ポートフォリオサイトをリニューアルしました2
 slug: portfolio-site-renewal
 description: 6年間運用していたポートフォリオサイトをリニューアルしました。今回のリプレイスのこだわりについて書きました。
-date: "2025-08-01"
+date: '2025-08-02'
 headerImage: './images/portfolio-nextjs.webp'
 ---
 
