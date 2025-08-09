@@ -1,7 +1,7 @@
 ---
 title: Firebase Functionsにモノレポのコードを含める
 slug: bundle-monorepo-to-firebase-functions
-description: 
+description: Cloud Functions for Firebaseを使って開発する際に、モノレポで定義した共通のコードをFirebase Functions側でも使用したいと思ったので解決しました。
 date: '2025-08-09'
 ---
 
