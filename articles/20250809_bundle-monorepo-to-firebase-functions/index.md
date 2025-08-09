@@ -10,11 +10,12 @@ date: '2025-08-09'
 tsupを使ってFirebase Functionsのビルド時にバンドルすればモノレポのコードをFirebase Functionsに含めることができ、モノレポらしい開発ができるようになりました。
 
 今回行った設定は下記のPRで見ることができます。
+
 https://github.com/andmohiko/firebase-monorepo/pull/3
 
 ## はじめに
 
-Cloud Functions for Firebaseを使って開発する際に、モノレポで定義した共通のコードをFirebase Functions側でも使用したいと思ったことはないでしょうか。今回は誰もが一度は思ったことがあることを解決します。
+Cloud Functions for Firebaseを使って開発する際に、モノレポで定義した共通のコードをFirebase Functions側でも使用したいと思ったことはないでしょうか。今回は多くの開発者が一度は遭遇するであろうこの課題を解決します。
 
 スーパーハムスターではプロダクト開発にFirebaseをよく使用します。Firebaseを使った開発体験を良くするため、これまでいくつかの取り組みをしてきました。
 
@@ -25,17 +26,17 @@ Cloud Functions for Firebaseを使って開発する際に、モノレポで定�
 
 ## 課題感
 
-Cloud Functions for Firebaseのデプロイは特殊な仕組みになっており、pnpm workspaceのワークスペースプロトコルを解釈できません。そのため、本来はモノレポのほかパッケージのコードを含めることはできず、Functionsのディレクトリ内に似たコードを重複して書く必要がありました。デプロイの仕組みは[Firebase Functionsのデプロイで裏側で何が起きているのか]([https://andmohiko.dev/blogs/how-firebase-deploy-works)で解説しています。
+Cloud Functions for Firebaseのデプロイは特殊な仕組みになっており、pnpm workspaceのワークスペースプロトコルを解釈できません。そのため、本来はモノレポのほかパッケージのコードを含めることはできず、Functionsのディレクトリ内に似たコードを重複して書く必要がありました。デプロイの仕組みは[Firebase Functionsのデプロイで裏側で何が起きているのか](https://andmohiko.dev/blogs/20250716_how-firebase-deploy-works)で解説しています。
 
 例えば、次のようなディレクトリ構造のプロジェクトで開発していたとします。
 
 ```
 Monorepo
 ├── apps
-│   ├── functions: Firebase Functionsのコード
+│   ├── admin: 管理画面のコード
 │   │   ├── src/
 │   │   └── package.json
-│   ├── console: 管理画面のコード
+│   ├── functions: Firebase Functionsのコード
 │   │   ├── src/
 │   │   └── package.json
 │   └── user: ユーザー側アプリのコード
@@ -48,10 +49,10 @@ Monorepo
 └── firebase.json
 ```
 
-このとき、`apps/console`と`apps/user`はモノレポのコードを参照できるため、`packages/common`で共通化している型定義などを使用することができます。
-しかし、`apps/functions`はワークスペースプロトコルを解釈できないため、`packages/common`のコードがimportできません。`packages/common`に書かれているコードと同じものをもう一度`apps/functions`に書き直す必要があります。
+このとき、`apps/admin`と`apps/user`はモノレポのコードを参照できるため、`packages/common`で共通化している型定義などを使用することができます。
+しかし、`apps/functions`はワークスペースプロトコルを解釈できないため、`packages/common`のコードをimportできません。`packages/common`に書かれているコードと同じものをもう一度`apps/functions`に書き直す必要があります。
 
-せっかくモノレポでコードを共通化できても、Firebase Functionsのパッケージでだけは同じコードをもう一度書く必要があり、モノレポと言いつつもGitHubリポジトリが同じなだけで、個別のアプリケーションごとに実装しているような感覚になります。
+せっかくモノレポでコードを共通化できても、Firebase Functionsのパッケージでだけは同じコードをもう一度書く必要があります。モノレポと言いつつも、GitHubリポジトリが同じなだけで個別のアプリケーションごとに実装しているような状況になってしまいます。
 
 ## tsupで解決する
 
@@ -114,17 +115,18 @@ export default defineConfig({
 
 ```
 
-重要なポイントは`options.alias`の設定です。これにより、`packages/common`のコードがバンドルに含まれ、Firebase Functionsのデプロイ時に一緒にアップロードされます。
+重要なポイントは`esbuildOptions`内の`options.alias`の設定です。これにより、`packages/common`のコードがバンドルに含まれ、Firebase Functionsのデプロイ時に一緒にアップロードされます。
 
 こちらでビルドの問題は解決されましたが、ローカルで開発する際にエディタ側が`packages/common`のコードを見つけられません。そこで、`tsconfig.json`で相対パスの設定をします。
-```
+
+```json
 {
   ...,
   "compilerOptions": {
     ...,
     "paths": {
       "~": ["./src"],
-      "@morning-call/common": ["../../packages/common/src"]
+      "@firebase-monorepo/common": ["../../packages/common/src"]
     }
   }
 }
@@ -152,7 +154,7 @@ export const createUser = onCall(async (request) => {
 })
 ```
 
-この解決策により、ローカルではtsconfigの相対パスで、ビルド時はtsupによるバンドルで`packages/common`のコードを使用することができるようになりました。
+この解決策により、ローカル開発時はtsconfigの相対パス設定で、ビルド時はtsupによるバンドルで`packages/common`のコードを使用することができるようになりました。
 
 ### 注意点
 
