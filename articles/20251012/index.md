@@ -11,22 +11,22 @@ date: '2025-10-12'
 
 ### 2024/10-12月
 
-スーパーハムスターのCTOとして、受託開発でPMをやりながら、自社開発で自分でコードを書いていました。副業と学生のみのチームで
+スーパーハムスターのCTOとして、受託開発でPMをやりながら、自社開発でコードを書いていました。副業と学生のみのチームだとどうしてもPMである自分がパワープレイで巻き返さないといけない場面もあり、マネジメントの難しさを感じました。
 
 Xでバズっていたポストに[ノリでリプライして3時間でデモを作ったら思ったよりいいねが来ました。](https://x.com/andmohiko/status/1853135009508667768)
-![](/images/redmeat.png)
+![](./images/redmeat.png)
 
 
 クソアプリAdvent Calendar2024では[彼氏がかわいすぎる.com](/works/vvra1oofpw)というアプリを作りました。詳しくは[こちらのZenn](https://zenn.dev/andmohiko/articles/d916e356438cfe)に書いています。
 
-![](/images/kareshi-kawaisugiru.png)
+![](./images/kareshi-kawaisugiru.png)
 
-2024年の自分の成果としては、npm installを初めてする学生をフルリモートでチーム開発に参加できるところまで2人育成したことだと思います。
+2024年の自分の成果としては、npm installを初めてする学生をチーム開発に参加できるところまでフルリモートで2人育成したことだと思います。
 
 ### 2025/1-3月
 
 年越しも個人開発しており、元旦に[成し遂げる](/works/iltd9gpzw)というアプリをリリースしました。詳しくは[こちらのブログ](/blogs/nashitogeru)で書いています。
-![](/images/nashitogeru.png)
+![](./images/nashitogeru.png)
 
 2月には[58ハッカソンという学生向けのハッカソンにメンターとして参加しました。](/blogs/58hackathon2025)このときにできた繋がりで今はスーパーハムスターでインターンしてくれている学生もいてうれしいです。
 
@@ -35,28 +35,28 @@ Xでバズっていたポストに[ノリでリプライして3時間でデモ�
 また、3月は高校を卒業して10年経ったということで、高校の担任の先生を読んだ同窓会が開かれました。同級生は医者やコンサルになっており、ソフトウェアエンジニアはいなく、派手髪も自分しかいませんでした。
 
 個人開発では(スマブラビンゴツール](/works/lw72tcnn45)を作りました。自分ではコードを書かずにバイブコーディングで作り切るという縛りで開発し、3日でリリースしました。
-![](/images/smash-bingo.jpeg)
+![](./images/smash-bingo.jpeg)
 
 3月末には元板前の友達が久しぶりに寿司を出すということで弾丸で大阪旅行をしました。イカに感動しました。
-![](/images/chaka_ika.jpg)
+![](./images/chaka_ika.jpg)
 
 ### 2025/4-6月
 
 4月はProgate Barで学生向けに個人開発についてLTしました。ここでの会話をきっかけに、[エンジニア見習いコースの求人も出しました。](/blogs/engineer-apprenticeship)今では研修生は10名程度参加しており、ここで修行して実務に参加するようになった学生もいます。スーパーハムスターに入社しなくても、実務経験を積める場に学生が参加できるようになったことがうれしいです。
-![](/images/progate_bar.jpg)
+![](./images/progate_bar.jpg)
 
 本業では[AIレビュー自動化くんをリリースしました。](https://prtimes.jp/main/html/rd/p/000000028.000142396.html)採用して1ヶ月半の学生もリリースに関われたことがうれしかったです。PMとデザインは社会人チームで担当すれば、開発は学生だけで受託を回せるということもわかりました。
 
 ゴールデンウィークには沖縄に旅行に行きました。ジャングルでシーシャを吸いました。
-![](/images/jungle_shisha.jpg)
+![](./images/jungle_shisha.jpg)
 
 5月後半は大阪万博にも行きました。大阪ヘルスケアパビリオンが面白かったです。社会人になってから友達に旅行に行くというのも初めてでした。
 
 例年通りおうちでボドゲ会もホストしました。久しぶりにテラミスティをやり、大型のボードゲームからしか得られない栄養素があることを感じました。
-![](/images/boardgame_terra.png)
+![](./images/boardgame_terra.png)
 
 シーシャを自分で作るイベントに参加し、楽しかったのでおうちシーシャを始めました。シーシャ屋さんに行く頻度は減りませんでしたが、自分で作ることで仕組みがわかり、シーシャをより楽しめるようになりました。
-![](/images/myshisha.png)
+![](./images/myshisha.png)
 
 スマブラの撃墜集も始めて作りました。最近はファルコを使っていますが、今でも魂のメインはロイです。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s6rSrar4yPU?si=qAd8E_WkLAlvJmq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -66,10 +66,10 @@ Xでバズっていたポストに[ノリでリプライして3時間でデモ�
 この頃は、生成AIを使うほど作業時間が短くなり、時間給で働いている人は逆に赤字になってしまうという問題に悩んでいました。弊社の技術顧問に相談し、全体的にエンジニアメンバーの時給の見直しをするべきだとアドバイスをいただきました。
 
 夏休みにまた沖縄に旅行に行きました。海を眺めながらiPadでコードを書きました。
-![](/images/okinawa_sea.jpg)
+![](./images/okinawa_sea.jpg)
 
 ハムスター界隈のエンジニアで集まり、シーシャ屋さんを貸し切ってLT会を開きました。貸し切りさせてくださった[御茶ノ水WARP](https://x.com/shishawarp)さんありがとう。
-![](/images/shishalt.png)
+![](./images/shishalt.png)
 
 9月にもProgate Barにまた参加し、[学生向けにLTをしました。](https://youtu.be/vTEjcYRNxr0)ウケてよかったです。
 
@@ -77,6 +77,7 @@ Xでバズっていたポストに[ノリでリプライして3時間でデモ�
 
 ### まとめ
 
+シーシャによりハマる1年間でした。
 個人開発も3つリリースできて、旅行もたくさんでき、去年掲げたことを達成できました。
 
 ## 29歳の目標
