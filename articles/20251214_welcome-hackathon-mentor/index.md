@@ -1,7 +1,7 @@
 ---
 title: 企業のエンジニアはハッカソンにメンター参加してほしい
 slug: welcome-hackathon-mentor
-description: 
+description: Progateとハックツハッカソンが開催するハッカソンに複数回参加させていただき、とてもよかったのでみなさんにもおすすめしたい
 date: '2025-12-14'
 headerImage: './images/hackathon-ritsumei.JPG'
 ---
@@ -37,8 +37,6 @@ headerImage: './images/hackathon-ritsumei.JPG'
 東京で開催されたハッカソンは筆者が参加し、関西で開催された会は弊社の関西メンバーがメンターとして参加しました。メンターは複数人で参加することができるので、普段会わないメンバーとオフラインで集まる機会にもなり、単純に社内のイベントとしてもうれしいです。
 
 ![近畿大学東大阪キャンパスでの開催](./images/hackathon-kinki.JPG)
-
-![立命館大学大阪いばらきキャンパスでの開催](./images/hackathon-ritsumei.JPG)
 
 スーパーハムスターでは毎回企業賞を用意させていただいており、過去には技術書や会社のTシャツ、とらやの羊羹のときもありました。
 
