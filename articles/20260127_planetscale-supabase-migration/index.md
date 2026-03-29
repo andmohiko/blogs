@@ -12,7 +12,7 @@ date: '2026-01-27'
 
 ## モチベーション
 
-ブルーメンヘラでは社内ツールのデータベースにPlanet Scaleを使用しています。以前はPlanet Scaleには無料枠があり、社内ツール程度であれば無料枠の範囲で動かせたため採用していました。しかし、[Planet Scaleは2024年に無料枠が廃止](https://planetscale.com/blog/planetscale-forever)され、毎月47ドルかかるようになりました。
+弊社では社内ツールのデータベースにPlanet Scaleを使用しています。以前はPlanet Scaleには無料枠があり、社内ツール程度であれば無料枠の範囲で動かせたため採用していました。しかし、[Planet Scaleは2024年に無料枠が廃止](https://planetscale.com/blog/planetscale-forever)され、毎月47ドルかかるようになりました。
 [Supabaseは基本料金＋DBインスタンスごとに課金される料金体系](https://supabase.com/pricing)ですが、すでに他のアプリケーションでSupabaseのデータベースを使用していたため、今回移行すればインフラ費用が47ドル→10ドルに削減できることになります。
 
 Supabaseを使うことでPostgreSQLを使用できるというメリットももちろんありますが、今回移行した社内ツールではMySQLでも問題なかったため、こちらのメリットはあまり感じていません。
