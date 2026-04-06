@@ -13,7 +13,7 @@ date: '2026-01-10'
 
 [https://smarepo.me](https://smarepo.me/)
 
-![https://github.com/andmohiko/smarepo](https://github.com/andmohiko/smarepo)
+[https://github.com/andmohiko/smarepo](https://github.com/andmohiko/smarepo)
 
 ## スマレポとは
 
