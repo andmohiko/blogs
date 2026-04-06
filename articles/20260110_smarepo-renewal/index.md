@@ -11,6 +11,10 @@ date: '2026-01-10'
 
 この記事では、リニューアルの進め方や、過去に作った個人開発をどう維持していくかについて書きました。
 
+[https://smarepo.me](https://smarepo.me/)
+
+![https://github.com/andmohiko/smarepo](https://github.com/andmohiko/smarepo)
+
 ## スマレポとは
 
 スマレポは、大乱闘スマッシュブラザーズ（スマブラ）のオンライン対戦の戦績を記録・分析できるWebアプリです。5年前の今日（2021/01/10）にリリースしました。詳しくは [スマブラが上手くなりたすぎてアプリを作りました](https://andmohiko.dev/blogs/20210131) という記事に書いています。

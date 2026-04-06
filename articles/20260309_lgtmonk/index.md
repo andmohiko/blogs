@@ -12,6 +12,8 @@ LGTM画像メーカー「LGTMonk」を個人開発しました。コードレビ
 
 この記事では、LGTMonkの開発経緯や技術的なこだわりについて書きました。
 
+[https://lgtm.mnhr.dev](https://lgtm.mnhr.dev/)
+
 ## LGTMonkとは
 
 LGTMonkは、GitHubのプルリクエストに貼るLGTM画像を生成・検索・コピーできるWebアプリケーションです。LGTMの僧侶（Monk）として、コードレビューをポップに盛り上げる"お坊さん"的存在をコンセプトにしています。
@@ -29,9 +31,6 @@ LGTMonkは、GitHubのプルリクエストに貼るLGTM画像を生成・検索
 Chrome拡張もあります。Pull Requestの画面を開いたまま、拡張のポップアップからランダムなLGTM画像を選んでワンクリックでコピーすることができます。わざわざLGTMonkのサイトを開く必要がないので、コードレビューの流れを止めずにLGTM画像を貼ることができます。
 
 ![](./images/lgtmonk-chrome-extension.png)
-
-**アプリケーションURL**
-[https://lgtm.mnhr.dev](https://lgtm.mnhr.dev/)
 
 **Chrome拡張URL**
 [https://chromewebstore.google.com/detail/lgtmonk-lgtm-image-genera/fehbobdfcedkipknpepaiednhlikgceg](https://chromewebstore.google.com/detail/lgtmonk-lgtm-image-genera/fehbobdfcedkipknpepaiednhlikgceg)
