@@ -3,7 +3,7 @@ title: チュパカブラ工藝社のCTOになりました
 slug: chupacabra
 description: 2026年6月1日から株式会社チュパカブラ工藝社のCTO兼CHROを務めています。これからやっていくことについて書きました。
 date: '2026-06-01'
-headerImage: './images/chupacabra.png'
+headerImage: './images/chupacabra.webp'
 ---
 
 2026年6月1日から株式会社チュパカブラ工藝社のCTO兼CHROを務めています。これからやっていくことについて書きました。
