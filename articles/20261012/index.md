@@ -16,19 +16,19 @@ date: '2026-10-12'
 
 クソアプリAdvent Calendar2025では[キュレーションリンク](/works/curate)というアプリを作りました。詳しくは[こちらのZenn](https://zenn.dev/andmohiko/articles/6fbf70b37c9b2b)に書いています。このあとに「私を構成する9つの⚪︎⚪︎」系が流行り、悔しかったです。
 
-![](./images/curationllink.png)
+![](./images/curationllink.webp)
 
 12月に桜庭微々乃ちゃん（[@kiss_a_vivino](https://x.com/kiss_a_vivino)）にXのヘッダーを描いてもらいました。普段シーシャを吸っているときのもひこのディティールも汲み取ってくれていて、依頼してよかったです。
 
-![](./images/andmohiko-header.png)
+![](./images/andmohiko-header.webp)
 
 カメラではじめて人の写真を撮りました。[御茶ノ水シーシャWARPのツバキさんです。](https://x.com/shisha_tsubaki/status/2004109172720501008)
 Sigmaの暗い味が出せて楽しかったです。
-![](./images/shisha-tsubaki.jpeg)
+![](./images/shisha-tsubaki.webp)
 
 学生の頃に作った個人開発 [スマレポ](/works/smarepo) をフルリプレイスしました。Nuxt.jsの2系で書かれていたコードベースをメンテすることをやめ、Next.jsとTypeScriptで実装し直しました。詳しくは[こちらのブログ](/blogs/smarepo-renewal)で書いています。
 
-![](./images/smarepo-top.png)
+![](./images/smarepo-top.webp)
 
 ### 2026/1-3月
 
@@ -39,11 +39,11 @@ Sigmaの暗い味が出せて楽しかったです。
 
 趣味だと、雷獣というYouTuberグループのイベント「STAR」を観に行きました。YouTuberのイベントに参加するのは初めてでした。一人で参戦するのはさみしかったのですが、イベントの内容も面白く未公開の動画を先行上映できたり楽しかったです。また行きたいと思いました。
 
-![](./images/raijustar.jpg)
+![](./images/raijustar.webp)
 
 MacBook Neoを購入しました。黄色くてかわいいので衝動買いしてしまいました。普段使っているMacBook Proよりも軽いので、外で作業するときにNeoを使っています。
 
-![](./images/macbookneo.jpg)
+![](./images/macbookneo.webp)
 
 また、スーパーハムスターの学生エンジニアメンバーが就活で困っていたため、就活の軸に合いそうで、私の学生時代のインターン仲間の繋がりがある企業を紹介したところ、内定をもらっていました。内定の報告を聞いたときには自分のことのように嬉しかったです。内定承諾し、現在は楽しく内定者インターンをしているそうです。
 
@@ -66,13 +66,13 @@ MacBook Neoを購入しました。黄色くてかわいいので衝動買いし
 
 チュパカブラ工藝社は展示会ブースの設計・施工の会社で、開発事業部ではブースを3Dで設計するアプリケーションを開発しています。ReactとThree.jsを使っています。
 
-![](./images/chupacabra.png)
+![](./images/chupacabra.webp)
 
 プライベートでは今年2回目の沖縄旅行に行きました。
 
 6月には今年読んでよかった本TOP3にも入る「]DIE WITH ZERO](https://www.amazon.co.jp/DIE-ZERO-%E4%BA%BA%E7%94%9F%E3%81%8C%E8%B1%8A%E3%81%8B%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%99%E3%81%8E%E3%82%8B%E7%A9%B6%E6%A5%B5%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB-%E3%83%93%E3%83%AB%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9-ebook/dp/B08K88Z2XR)」を読みました。お金から楽しみを引き出す力は今がピークという話に感銘を受け、すぐに友達に会いに大阪旅行にいきました。
 
-![](./images/diewithzero.jpeg)
+![](./images/diewithzero.webp)
 
 6月はHERPY HOURに参加させてもらったり、ラグナログオフィスに遊びに行かせてもらったのも楽しかったです。
 
@@ -85,7 +85,7 @@ MacBook Neoを購入しました。黄色くてかわいいので衝動買いし
 9月後半にはメインで使うエージェントをGrok Botに移行しました。Grok Bot最高です。
 
 遊び面では、8月にdadaの常連でBBQをしました。新しいコミュニティができてうれしいです。dadaスプラ鯖に誘ってくれてまいごありがとう。
-![](./images/dada-bbq.jpg)
+![](./images/dada-bbq.webp)
 
 大学のサークルの同期・先輩でビアガーデンに行きました。毎年会う人もいれば10年ぶりに会う人もいて、今でも繋がりがあるのはありがたいと感じました。
 
@@ -94,11 +94,11 @@ MacBook Neoを購入しました。黄色くてかわいいので衝動買いし
 
 煙羅煙羅で買ってきたフレーバーを使い、[御茶ノ水シーシャWARP](https://www.instagram.com/shishawarp_ocha/)でONAの試煙会を開かせていただきました。
 
-![](./images/ona.jpg)
+![](./images/ona.webp)
 
 海外旅行ではオーストラリアのパースに行きました。Yo-Chiというフローズンヨーグルト屋さんが楽しかったです。Biscoff spreadとcookie doughが美味しかったです。
 
-![](./images/yochi.jpg)
+![](./images/yochi.webp)
 
 筋トレでは六本木のウォーリアーズジムに行きました。ビジター利用で5500円したため、元を取るためにジムにあるマシンをすべてやりました。
 
